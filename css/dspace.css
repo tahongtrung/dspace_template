@@ -1,0 +1,121 @@
+/* Edit by LIB HITC */
+body {
+  font-family: 'Roboto', sans-serif;
+}
+.h3, h3 {
+    font-size: 20px;
+}
+li{list-style:none;}
+li>a:hover{text-decoration: none; color:#c9302c;}
+.navbar-default .navbar-nav > li > a {
+    color: #333;
+}
+.navbar-static-top {
+  margin-bottom: 0px;
+}
+.navbar-default .navbar-brand {
+    color: #005983;
+}
+.footer {
+    width: 100%;
+	padding-top:25px;
+    background-color: #ccc;
+}
+.text-muted {
+    color: #333;
+}
+.breadcrumb {
+	margin-top:10px;
+}
+.breadcrumb > li > a {
+    color: #6688a6;
+}
+.fa-folder-open{color:#f0c05a;}
+.icon{padding-right:5px;}
+.dspace-header-home{
+	font-size: 24px;
+	position: relative;
+    padding: 50px 0; /* padding: 30px 0;*/
+	color: #cdbfe3;
+	text-align: center;
+	background:#336e99;
+	background-repeat: repeat-x;
+}
+.search-home{margin-left:15%}
+.dspace-community-home{
+	margin-top:1%;
+	margin-left:7%;
+}
+.community-list-home li{
+	padding-top:5px;
+	padding-bottom:5px;
+	font-weight: 500;
+}
+.dspace-related-home{
+	margin-top:2%;
+	margin-left:7%;
+	padding-bottom:10%;
+}
+.related-list-home li{
+	padding-top:5px;
+	padding-bottom:5px;
+	font-weight: 400;
+	font-size:15px;
+}
+.related-list-home li>a{
+ color:#333;
+}
+.form-control.input-lg.type-search-home{
+	height: 46px;
+}
+.related-list-home li>a:hover{
+color:#c9302c;
+}
+.dspace-infor-home{
+	padding-left:7%;
+    background: #4760bb;
+	color:#fff;
+	padding-top:0.8%;
+	padding-bottom:0.5%;
+}
+.alert {
+	margin-bottom:0px;
+}
+.community-list-href>li{
+	padding-bottom:5px;
+	padding-left:10px;
+	font-size:15px;
+}
+li.community-list-list{
+	padding-left:50px;
+}
+
+.form-control{
+	height:26px; 
+}
+.form-group.year{
+	padding-right:10px;
+}
+.form-group.moth{
+	padding-left:10px;
+	padding-right:10px;
+}
+.submit{
+	margin-left: 15px;
+}
+.panel-title {
+	font-size:15px;
+}
+.space{padding-left:10px;}
+a.abc{
+	border:1px solid #ccc;
+	padding-top:3px;
+	padding-bottom:3px;
+	padding-right:5px;
+	padding-left:5px;
+}
+a.pull-right.next,a.pull-left.next{font-size:13px;color: yellow;}
+
+
+
+

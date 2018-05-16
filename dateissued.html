@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Dateissued</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome CSS -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700,700i" rel="stylesheet"> 
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/dspace.css" rel="stylesheet">
+    
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <!-- Static navbar -->
+	<div class="dspace-infor-home">
+		<div class="container">
+		Tài khoản đăng nhập:
+		<i class="icon fa fa-hand-o-right" aria-hidden="true"></i>Username: <strong>@opensourcesvn</strong>. Password: <strong>123456789</strong>
+		</div>	
+	</div>
+    <nav class="navbar navbar-default navbar-static-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"><span class="icon glyphicon glyphicon-education"></span>THƯ VIỆN SỐ</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#"><i class="icon fa fa-home"></i>Trang chủ</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="icon fa fa-list-alt" aria-hidden="true"></i>Duyệt theo<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Bộ sưu tập</a></li>
+                <li><a href="#">Năm xuất bản</a></li>
+                <li><a href="#">Tác giả</a></li>
+				<li><a href="#">Nhan đề</a></li>
+				<li><a href="#">Chủ đề</a></li>
+              </ul>
+            </li>
+			<li><a href="#about"><i class="icon fa fa-question-circle-o"></i>Trợ giúp</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+		  <li><a href="#"><i class="icon fa fa-user-circle-o" aria-hidden="true"></i>Đăng ký</a></li>
+		  <li><a href="#"><i class="icon fa fa-lock" aria-hidden="true"></i>Đăng nhập</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="icon fa fa-globe" aria-hidden="true"></i>Ngôn ngữ<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Tiếng Anh</a></li>
+                <li><a href="#">Tiếng Việt</a></li>
+              </ul>
+            </li>
+			 <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="icon fa fa-sign-in" aria-hidden="true"></i>Chức năng<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Đăng ký email thông báo</a></li>
+                <li><a href="#">Trang cá nhân</a></li>
+				<li><a href="#">Hồ sơ</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+	<div class="community-dateissued">
+		<div class="container">
+	    <ol class="breadcrumb">
+	    <li><a href="#">Thư Viện Số Trường Cao Đẳng Công Thương TPHCM</a></li>
+	    </ol>
+		<h3>Duyệt theo Năm xuất bản </h3>
+		<div class="browse_navigation well text-center">
+		<form class="form-inline">
+		  <div class="form-group year">
+			<label>Chọn thông tin</label>
+			<select name="year">
+	        <option class="form-control" selected="selected" value="-1">Chọn năm</option>
+
+            <option>2018</option>
+
+            <option>2017</option>
+
+            <option>2016</option>
+
+            <option>2015</option>
+           </select>
+		  </div>
+		  <div class="form-group moth">
+		   <label></label>
+			<select name="moth">
+	        <option class="form-control" selected="selected" value="-1">Chọn tháng</option>
+
+            <option>1</option>
+
+            <option>2</option>
+
+            <option>3</option>
+
+            <option>4</option>
+           </select>
+		  </div>
+		  <div class="form-group">
+		  <label for="starts_with">Hoặc nhập năm:</label>
+		  <input name="starts_with" size="4" maxlength="4" type="text" class="form-control">
+		  </div>
+		  <input class="btn btn-danger submit" value="Go!" type="submit">
+		  </form>
+		  </div>
+		<div class="browse_controls well text-center">
+		<form>
+		<input name="type" value="dateissued" type="hidden">
+		<label for="sort_by">Sắp xếp theo:</label>
+		<select name="sort_by">
+       <option class="form-control" value="1">title</option> 
+	   <option class="form-control" value="2" selected="selected">issue date</option> 
+	   <option class="form-control" value="3">submit date</option>
+		</select>
+		<span class="space"></span>
+		<label for="order">Thứ tự:</label>
+		<select name="order">
+			<option class="form-control" value="ASC" selected="selected">Ascending</option>
+			<option class="form-control" value="DESC">Descending</option>
+		</select>
+        <span class="space"></span>
+		<label for="rpp">Kết quả/Trang</label>
+		<select name="rpp">
+			<option class="form-control" value="5">5</option>
+			<option class="form-control" value="10">10</option>
+			<option class="form-control" value="15">15</option>
+			<option class="form-control" value="20" selected="selected">20</option>
+		</select>
+		<span class="space"></span>
+		<label for="etal">Tác giả/Biểu ghi:</label>
+		<select name="etal">
+			<option class="form-control" value="0" selected="selected">All</option>
+            <option class="form-control" value="1">1</option>	
+			<option class="form-control" value="5">5</option>
+			<option class="form-control" value="10">10</option>
+		</select>
+		<span class="space"></span>
+		<input class="btn btn-danger submit" name="submit_browse" value="Update" type="submit">
+	</form>
+		  </div>
+		  
+		<div class="panel panel-primary">
+		  <div class="panel-heading">
+			<h3 class="panel-title text-center">Hiển thị kết quả 1 đến 20 của 2615 
+			
+			<a class="pull-left next" href="">Trang trước <i class="icon fa fa-chevron-circle-left" aria-hidden="true"></i></a>
+			<a class="pull-right next" href="">Trang sau <i class="icon fa fa-chevron-circle-right" aria-hidden="true"></i></a>
+			</h3>
+		  </div>
+		  <div class="panel-body">
+			<table class="table"> 
+		 <thead> 
+		 <tr> 
+		 <th>#</th> 
+		 <th>First Name</th>
+		 <th>Last Name</th>
+		 <th>Username</th> 
+		 </tr> 
+		 </thead> 
+		 <tbody> 
+		 <tr> 
+		 <th scope="row">1</th>
+		 <td>Mark</td> 
+		 <td>Otto</td> 
+		 <td>@mdo</td> 
+		 </tr> 
+		 <tr>
+		 <th scope="row">2</th> 
+		 <td>Jacob</td> 
+		 <td>Thornton</td> 
+		 <td>@fat</td>
+		 </tr> 
+		 <tr> 
+		 <th scope="row">3</th> 
+		 <td>Larry</td> 
+		 <td>the Bird</td>
+		  <td>@fat</td>
+		 </tr> 
+		 </tbody> 
+		 </table>
+		  </div>
+	  </div>
+		  
+		</div>
+	</div>
+		
+    <footer class="footer">
+      <div class="container">
+        <p class="text-muted"> THƯ VIỆN SỐ ©2018 - OpensourceVN || Địa chỉ:  https://www.facebook.com/opensourcesvn/<br/>
+		Tuân thủ luật bản quyền khi sử dụng tài liệu số
+		</p>
+      </div>
+    </footer>	
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
